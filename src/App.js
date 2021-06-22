@@ -126,8 +126,8 @@ function App() {
                   Java Jakarta EE8, Microsoft SQL, Oracle Database, Flutter and
                   Swift 4. I also learnt about MVC, UML, unit testing & quality
                   assurance, as well as agile development methodologies (mainly
-                  SCRUM) by creating a WordPress site, database & admin
-                  dashboard for an outside client on a team. During my tenure in
+                  SCRUM). At the course's final course project, my team and I utilized SCRUM to create a WordPress site, database & admin
+                  dashboard for an outside client, which was the project chosen to be used in production. During my tenure in
                   the program, I was placed on the Dean's Honour Roll for 2/4 terms.
                 </div>
               </div>
@@ -613,7 +613,7 @@ function App() {
             </div>
 
             <span className="col-md-3">
-              <a href={"mailto:ryanb1214@protonmail.com"} className="media">
+              <a href={"mailto:ryanb1214@protonmail.com"} className="media media-email" >
                 <i className="media-icon bi bi-envelope-fill"></i>
                 <span className="media-text">ryanb1214@protonmail.com</span>
               </a>

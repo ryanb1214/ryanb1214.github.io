@@ -243,8 +243,10 @@ footer .btn {
 .media-text{ 
   padding-left: 1rem;
   color:inherit;
-  text-decoration:none;
 }
+
+.media-email { color: #fff; }
+.media-email:link{ text-decoration: none!important; }
 
 .media-text:hover { 
   color:inherit;
