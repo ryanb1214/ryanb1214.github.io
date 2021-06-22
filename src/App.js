@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import ReactPlayer from "react-player";
-import { Fade, Slide, Bounce,  Zoom } from "react-awesome-reveal";
+import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
 import ScrollTopArrow from "./components/ScrollTopArrow";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -50,7 +50,8 @@ function App() {
                 everything I create secure and up to development standards. I am
                 more experienced with front-end web development, but I am
                 currently learning more about back-end API development through
-                Node JS during my free-time. At the moment, I am learning more about Cybersecurity and more about risk management/analysis.
+                Node JS during my free-time. At the moment, I am learning more
+                about Cybersecurity and more about risk management/analysis.
               </div>
               <div className="col-md-4">
                 <Zoom triggerOnce="true">
@@ -80,9 +81,7 @@ function App() {
             <p className="quote">
               “The only source of knowledge is experience.”
               <br />
-              <span className="speaker">
-                -- Albert Einstein
-              </span>
+              <span className="speaker">-- Albert Einstein</span>
             </p>
             <h3>Education</h3>
           </Fade>
@@ -96,15 +95,19 @@ function App() {
                   <div class="experience-period">2021 - 2022</div>
                 </div>
                 <div class="col-md-8">
-                  <strong>Cybersecurity&nbsp;&nbsp;|&nbsp;&nbsp;Post-Diploma Certificate</strong>
+                  <strong>
+                    Cybersecurity&nbsp;&nbsp;|&nbsp;&nbsp;Post-Diploma
+                    Certificate
+                  </strong>
                   <br />I am currently learning about Cybersecurity Standards &
                   Regulations, such as those used in the federal or provincial
-                  level legislations, or internationally as in GDPR. Other courses
-                  covered so far are based on network & packet analysis for
-                  TCP/IP protocols. In future courses I will learn more about
-                  penetration testing, vulnerabilities/exploits, securing systems and information,
-                  cryptography, human security, planning, risk management &
-                  analysis as well as forensic investigations.
+                  level legislations, or internationally as in GDPR. Other
+                  courses covered so far are based on network & packet analysis
+                  for TCP/IP protocols. In future courses I will learn more
+                  about penetration testing, vulnerabilities/exploits, securing
+                  systems and information, cryptography, human security,
+                  planning, risk management & analysis as well as forensic
+                  investigations.
                 </div>
               </div>
             </div>
@@ -118,7 +121,8 @@ function App() {
                 </div>
                 <div class="col-md-8">
                   <strong>
-                    Digital Media & IT - Computer Software Development&nbsp;&nbsp;|&nbsp;&nbsp;Diploma
+                    Digital Media & IT - Computer Software
+                    Development&nbsp;&nbsp;|&nbsp;&nbsp;Diploma
                   </strong>
                   <br />
                   The languages I learned during my time gaining this diploma
@@ -126,9 +130,11 @@ function App() {
                   Java Jakarta EE8, Microsoft SQL, Oracle Database, Flutter and
                   Swift 4. I also learnt about MVC, UML, unit testing & quality
                   assurance, as well as agile development methodologies (mainly
-                  SCRUM). At the course's final course project, my team and I utilized SCRUM to create a WordPress site, database & admin
-                  dashboard for an outside client, which was the project chosen to be used in production. During my tenure in
-                  the program, I was placed on the Dean's Honour Roll for 2/4 terms.
+                  SCRUM). At the course's final course project, my team and I
+                  utilized SCRUM to create a WordPress site, database & admin
+                  dashboard for an outside client, which was the project chosen
+                  to be used in production. During my tenure in the program, I
+                  was placed on the Dean's Honour Roll for 2/4 terms.
                 </div>
               </div>
             </div>
@@ -146,8 +152,10 @@ function App() {
                   Successfully achieved my high school diploma. I have always
                   been interested in development, web design & cybersecurity so
                   I decided to take up the DMIT program at NAIT, and later the
-                  cybersecurity program. During my free-time while in junior high and high school I developed a few small websites that are no longer
-                  hosted online, which utilized Linux virtual private servers.
+                  cybersecurity program. During my free-time while in junior
+                  high and high school I developed a few small websites that are
+                  no longer hosted online, which utilized Linux virtual private
+                  servers.
                 </div>
               </div>
             </div>
@@ -157,10 +165,11 @@ function App() {
           <Fade triggerOnce="true">
             <h2>Abilities</h2>
             <p className="quote">
-            "Competence goes beyond words. It's the leader's ability to say it, plan it, and do it in such a way that others know that you know how - and know that they want to follow you."
-            <br/>
-            <span className="speaker">-- John Maxwell</span>
-
+              "Competence goes beyond words. It's the leader's ability to say
+              it, plan it, and do it in such a way that others know that you
+              know how - and know that they want to follow you."
+              <br />
+              <span className="speaker">-- John Maxwell</span>
             </p>
             <h3>Development Skills</h3>
 
@@ -378,7 +387,8 @@ function App() {
                   <span className="ability-type">
                     Firefox / Google Chrome{" "}
                     <span className="italic">
-                      {/* ({new Date().getFullYear() - 2015} years) */} (10+ years)
+                      {/* ({new Date().getFullYear() - 2015} years) */} (10+
+                      years)
                     </span>
                   </span>
                   <span className="ability-rating">
@@ -587,37 +597,35 @@ function App() {
           <h2>Get in Touch</h2>
 
           <div className="row justify-content-center">
-            <div
-              className="media col-md-3"
-              onClick={(event) =>
-                (window.location.href = "https://github.com/ryanb1214/")
-              }
-            >
-              <span className="media-icon">
-                <i class="bi bi-github"></i>
-              </span>
-              <span className="media-text">ryanb1214</span>
+            <div className="col-md-3">
+              <a
+                href={"https://github.com/ryanb1214"}
+                className="media media-email"
+              >
+                <i className="media-icon bi bi-github"></i>
+                <span className="media-text">ryanb1214</span>
+              </a>
             </div>
 
-            <div
-              className="media col-md-3"
-              onClick={(event) =>
-                (window.location.href =
-                  "https://www.linkedin.com/in/ryanball99")
-              }
-            >
-              <span className="media-icon">
-                <i class="bi bi-linkedin"></i>
-              </span>
-              <span className="media-text">ryanball99</span>
+            <div className="col-md-3">
+              <a
+                href={"https://www.linkedin.com/in/ryanball99"}
+                className="media media-email"
+              >
+                <i className="media-icon bi bi-linkedin"></i>
+                <span className="media-text">ryanball99</span>
+              </a>
             </div>
 
-            <span className="col-md-3">
-              <a href={"mailto:ryanb1214@protonmail.com"} className="media media-email" >
+            <div className="col-md-3">
+              <a
+                href={"mailto:ryanb1214@protonmail.com"}
+                className="media media-email"
+              >
                 <i className="media-icon bi bi-envelope-fill"></i>
                 <span className="media-text">ryanb1214@protonmail.com</span>
               </a>
-            </span>
+            </div>
           </div>
 
           <button
