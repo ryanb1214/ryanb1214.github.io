@@ -597,7 +597,7 @@ function App() {
           <h2>Get in Touch</h2>
 
           <div className="row justify-content-center">
-            <div className="col-md-3">
+            <div className="col-lg-4">
               <a
                 href={"https://github.com/ryanb1214"}
                 className="media media-email"
@@ -607,7 +607,7 @@ function App() {
               </a>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-4">
               <a
                 href={"https://www.linkedin.com/in/ryanball99"}
                 className="media media-email"
@@ -617,7 +617,7 @@ function App() {
               </a>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-4">
               <a
                 href={"mailto:ryanb1214@protonmail.com"}
                 className="media media-email"
