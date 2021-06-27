@@ -197,9 +197,9 @@ h3{ font-size: 150%; }
   padding-top: 0.5rem;
 }
 
-section#abilities > h3 {
+section#abilities h3 {
   padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  margin-bottom:1rem;
   font-size: 150%;
 }
 

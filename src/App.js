@@ -2,6 +2,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import ReactPlayer from "react-player";
 import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
 import ScrollTopArrow from "./components/ScrollTopArrow";
+import Rating from "./components/Rating";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -175,417 +176,50 @@ function App() {
 
             <div className="row">
               <div className="col-md-6">
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Bootstrap Framework</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">HTML</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">React JS</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">C#</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">CSS</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Javascript</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Microsoft SQL</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Object Oriented Programming
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Search Engine Optimization
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
+                <Rating title="Bootstrap Framework" star={5} />
+                <Rating title="HTML" star={5} />
+                <Rating title="ReactJS" star={5} />
+                <Rating title="C#" star={4} />
+                <Rating title="CSS" star={4} />
+                <Rating title="Javascript" star={4} />
+                <Rating title="Microsoft SQL" star={4} />
+                <Rating title="Object Oriented Programming" star={4} />
+                <Rating title="Search Engine Optimization" star={4} />
               </div>
               <div className="col-md-6">
-                <ul className="rating no-bullets">
-                  <span className="ability-type">SCRUM Methodology</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">WordPress</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Flutter</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">MySQL</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Node JS</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Oracle Database</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Java</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Python</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">Swift</span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
+                <Rating title="SCRUM Methodology" star={4} />
+                <Rating title="WordPress" star={4} />
+                <Rating title="Flutter" star={3} />
+                <Rating title="MySQL" star={3} />
+                <Rating title="NodeJS" star={3} />
+                <Rating title="Oracle Database" star={3} />
+                <Rating title="Java Jakarta EE" star={2} />
+                <Rating title="Python" star={2} />
+                <Rating title="Swift" star={2} />
               </div>
             </div>
             <hr />
             <h3>Tools</h3>
             <div className="row">
               <div className="col-md-6">
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    FileZilla / WinSCP{" "}
-                    <span className="italic">
-                      {/* ({new Date().getFullYear() - 2015} years) */} (5
-                      years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Firefox / Google Chrome{" "}
-                    <span className="italic">
-                      {/* ({new Date().getFullYear() - 2015} years) */} (10+
-                      years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Linux Desktop{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2018} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Microsoft Office{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2014} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Ubuntu Servers{" "}
-                    <span className="italic">
-                      {/* ({new Date().getFullYear() - 2015} years) */} (5
-                      years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Visual Studio Code{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2017} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Windows
-                    {/* <span className="italic"> ({new Date().getFullYear() - 2009 > 20
-                    ? "20+ years" : "10+ years"})
-                  </span> */}
-                    <span className="italic"> (10+ years)</span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Git{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2018} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
+                <Rating title="FTP & SSH - FileZilla/PuTTY" star={5} experienceString="(5 years)" />
+                <Rating title="Firefox / Google Chrome" star={5} experienceString="(10+ years)" />
+                <Rating title="Ubuntu & Arch Linux Desktop" star={5} startYear={2018} />
+                <Rating title="Amazon Web Services" star={5} startYear={2014} />
+                <Rating title="Microsoft Office" star={5} experienceString="(1 year)" />
+                <Rating title="Ubuntu & Debian Servers" star={5} experienceString="(5 years)" />
+                <Rating title="Visual Studio Code" star={5} startYear={2017} />
+                <Rating title="Windows" star={5} experienceString="(10+ years)" />
+                <Rating title="Git" star={4} startYear={2018} />
               </div>
               <div className="col-md-6">
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    MacOS{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2019} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Sublime Text{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2016} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Visual Studio <span className="italic">(3 years)</span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Amazon Web Services <span className="italic">(1 year)</span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Eclipse <span className="italic">(1 year)</span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Photoshop{" "}
-                    <span className="italic">
-                      ({new Date().getFullYear() - 2013} years)
-                    </span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
-                <ul className="rating no-bullets">
-                  <span className="ability-type">
-                    Wireshark <span className="italic">(1 year)</span>
-                  </span>
-                  <span className="ability-rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </span>
-                </ul>
+                <Rating title="MacOS" star={4} startYear={2019} />
+                <Rating title="Sublime Text" star={4} startYear={2016} />
+                <Rating title="Visual Studio" star={4} experienceString="(3 years)" />
+                <Rating title="Amazon Web Services" star={3} experienceString="(1 year)" />
+                <Rating title="Eclipse" star={3} experienceString="(1 year)" />
+                <Rating title="Photoshop" star={3} startYear={2013} />
+                <Rating title="Wireshark" star={3} experienceString="(1 year)" />
               </div>
             </div>
           </Fade>
@@ -652,11 +286,6 @@ function age() {
     currentAge--;
   }
   return currentAge;
-}
-
-function mail() {
-  var email = "ryanb1214@protonmail.com";
-  window.location.href = "mailto:" + email;
 }
 
 export default App;
