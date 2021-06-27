@@ -205,8 +205,7 @@ function App() {
                 <Rating title="FTP & SSH - FileZilla/PuTTY" star={5} experienceString="(5 years)" />
                 <Rating title="Firefox / Google Chrome" star={5} experienceString="(10+ years)" />
                 <Rating title="Ubuntu & Arch Linux Desktop" star={5} startYear={2018} />
-                <Rating title="Amazon Web Services" star={5} startYear={2014} />
-                <Rating title="Microsoft Office" star={5} experienceString="(1 year)" />
+                <Rating title="Microsoft Office" star={5} startYear={2016} />
                 <Rating title="Ubuntu & Debian Servers" star={5} experienceString="(5 years)" />
                 <Rating title="Visual Studio Code" star={5} startYear={2017} />
                 <Rating title="Windows" star={5} experienceString="(10+ years)" />
@@ -219,13 +218,12 @@ function App() {
                 <Rating title="Amazon Web Services" star={3} experienceString="(1 year)" />
                 <Rating title="Eclipse" star={3} experienceString="(1 year)" />
                 <Rating title="Photoshop" star={3} startYear={2013} />
-                <Rating title="Wireshark" star={3} experienceString="(1 year)" />
+                <Rating title="Wireshark" star={3} startYear={2021} />
               </div>
             </div>
           </Fade>
         </section>
       </main>
-
       <footer className="container-fluid">
         <Bounce triggerOnce="true">
           <h2>Get in Touch</h2>

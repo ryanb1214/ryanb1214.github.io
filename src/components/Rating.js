@@ -14,7 +14,16 @@ function Rating(props) {
     */
     if (props.startYear) {
         experience = new Date().getFullYear() - props.startYear
-        experience = "(" + experience + " years)"
+        if (experience <= 1 ) {
+            //In case years of experience was calculated as 0 -- set to 1 for simplicity. Cannot remember specific months I started learning
+            experience = 1
+            //Format for later use as a string
+            experience = "(" + experience + " year)"
+        }
+        else {
+            //Format for later use as a string
+            experience = "(" + experience + " years)"
+        }
     }
     
     /*
@@ -24,7 +33,9 @@ function Rating(props) {
 
         startYear and experienceString are used interchangeably depending on need
     */
-   if (props.experienceString) { experience = props.experienceString }
+   if (props.experienceString) { 
+       experience = props.experienceString 
+    }
 
     return( 
         <ul className="rating no-bullets">
