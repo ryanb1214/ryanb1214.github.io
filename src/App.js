@@ -26,7 +26,7 @@ function App() {
           <Slide triggerOnce="true">
             <h1>Ryan Ball</h1>
             <p class="motto">
-              Developer and web designer training for cybersecurity
+              Aspiring Cybersecurity Professional
             </p>
           </Slide>
           <Link
@@ -47,12 +47,11 @@ function App() {
             <h2>About Me</h2>
             <div className="row">
               <div className="col-md-4 bio">
-                I am a developer with an attention to detail and strive to keep
-                everything I create secure and up to development standards. I am
-                more experienced with front-end web development, but I am
-                currently learning more about back-end API development through
-                Node JS during my free-time. At the moment, I am learning more
-                about Cybersecurity and more about risk management/analysis.
+                Organized and eager-to-learn aspiring Cybersecurity Professional, with a history of software development, looking to start a career in the industry.
+                <br /> <br /> 
+                I am experienced in cybersecurity documentation development, 
+                risk identification, vulnerability assessments, web and database development, diagnosing software and hardware issues, customer service, video production 
+                with working knowledge in networking and Windows/Linux Servers. I am currently working towards acquiring a CompTIA Security+ certification and improving my Python knowledge.
               </div>
               <div className="col-md-4">
                 <Zoom triggerOnce="true">
@@ -100,15 +99,11 @@ function App() {
                     Cybersecurity&nbsp;&nbsp;|&nbsp;&nbsp;Post-Diploma
                     Certificate
                   </strong>
-                  <br />I am currently learning about Cybersecurity Standards &
-                  Regulations, such as those used in the federal or provincial
-                  level legislations, or internationally as in GDPR. Other
-                  courses covered so far are based on network & packet analysis
-                  for TCP/IP protocols. In future courses I will learn more
-                  about penetration testing, vulnerabilities/exploits, securing
-                  systems and information, cryptography, human security,
-                  planning, risk management & analysis as well as forensic
-                  investigations.
+                  <br />
+                  Areas of studies covered in this program included standards and regulations (ISO, NIST & PIPA, PIPEDA, GDPR), 
+                  frameworks (COBIT & ITIL), network protocols and traffic analysis, vulnerabilty assessments, 
+                  penetration testing, digital forensics, identity management, identifying social engineering attacks, 
+                  implementing cyber awareness training, developing policies/procedures/playbooks, risk management and risk assessments, firewalls, and threat hunting.
                 </div>
               </div>
             </div>
@@ -130,11 +125,10 @@ function App() {
                   consisted of: HTML, CSS, C#/ASP.Net Framework Applications,
                   Java Jakarta EE8, Microsoft SQL, Oracle Database, Flutter and
                   Swift 4. I also learnt about MVC, UML, unit testing & quality
-                  assurance, as well as agile development methodologies (mainly
-                  SCRUM). At the course's final course project, my team and I
+                  assurance, as well as agile development methodologies. During the program's final course, the "Capstone Project", my team and I
                   utilized SCRUM to create a WordPress site, database & admin
-                  dashboard for an outside client, which was the project chosen
-                  to be used in production. During my tenure in the program, I
+                  dashboard for an external client, which was the project chosen
+                  to be used over other teams' final projects. During my tenure in the program, I
                   was placed on the Dean's Honour Roll for 2/4 terms.
                 </div>
               </div>
@@ -151,12 +145,10 @@ function App() {
                   <strong>High School Diploma</strong>
                   <br />
                   Successfully achieved my high school diploma. I have always
-                  been interested in development, web design & cybersecurity so
-                  I decided to take up the DMIT program at NAIT, and later the
-                  cybersecurity program. During my free-time while in junior
+                  been interested in evolving techologies, development & cybersecurity so
+                  I decided to take up both programs at NAIT. During my free-time while in junior
                   high and high school I developed a few small websites that are
-                  no longer hosted online, which utilized Linux virtual private
-                  servers.
+                  no longer hosted online, which utilized a Linux server and developed with Flash, HTML/CSS, and Javascript.
                 </div>
               </div>
             </div>
@@ -172,53 +164,57 @@ function App() {
               <br />
               <span className="speaker">-- John Maxwell</span>
             </p>
+            <hr />
+
+            <h3>Cybersecurity Tools</h3>
+            <div className="row">
+              <div className="col-md-6">
+                <Rating title="Metasploit" star={4} startYear={2020} />
+                <Rating title="Nessus" star={3} startYear={2020} />
+                <Rating title="Nmap" star={3} startYear={2020} />
+                <Rating title="Wireshark" star={3} startYear={2020} />
+              </div>
+              <div className="col-md-6">
+                <Rating title="Autopsy" star={2} experienceString="(1 year)" />
+                <Rating title="Burpsuite" star={2} startYear={2021} />
+                <Rating title="IDA Debugger" star={2} experienceString="(1 year)" />
+              </div>
+            </div>
+
+            <h3>Technologies</h3>
+            <div className="row">
+              <div className="col-md-6">
+                <Rating title="Windows Desktops & Servers" star={5} experienceString="(10+ years)" />
+                <Rating title="Visual Studio Code" star={5} startYear={2017} />
+                <Rating title="Git" star={4} experienceString="(3 years)" />
+                <Rating title="Linux Desktops & Servers" star={4} startYear={2018} />
+              </div>
+              <div className="col-md-6">
+                <Rating title="MacOS" star={4} experienceString="(2 years)" />
+                <Rating title="Microsoft Office" star={4} startYear={2016} />
+                <Rating title="Visual Studio" star={4} experienceString="(3 years)" />
+                <Rating title="Amazon Web Services" star={2} experienceString="(1 year)" />
+              </div>
+            </div>
+
             <h3>Development Skills</h3>
 
             <div className="row">
               <div className="col-md-6">
                 <Rating title="Bootstrap Framework" star={5} />
                 <Rating title="HTML" star={5} />
-                <Rating title="ReactJS" star={5} />
-                <Rating title="C#" star={4} />
                 <Rating title="CSS" star={4} />
                 <Rating title="Javascript" star={4} />
-                <Rating title="Microsoft SQL" star={4} />
-                <Rating title="Object Oriented Programming" star={4} />
-                <Rating title="Search Engine Optimization" star={4} />
+                <Rating title="ReactJS" star={4} />
+                <Rating title="SCRUM Methodology" star={4} />
               </div>
               <div className="col-md-6">
-                <Rating title="SCRUM Methodology" star={4} />
+                <Rating title="Search Engine Optimization" star={4} />
                 <Rating title="WordPress" star={4} />
-                <Rating title="Flutter" star={3} />
+                <Rating title="C#" star={3} />
                 <Rating title="MySQL" star={3} />
                 <Rating title="NodeJS" star={3} />
-                <Rating title="Oracle Database" star={3} />
-                <Rating title="Java Jakarta EE" star={2} />
                 <Rating title="Python" star={2} />
-                <Rating title="Swift" star={2} />
-              </div>
-            </div>
-            <hr />
-            <h3>Tools</h3>
-            <div className="row">
-              <div className="col-md-6">
-                <Rating title="FTP & SSH - FileZilla/PuTTY" star={5} experienceString="(5 years)" />
-                <Rating title="Firefox / Google Chrome" star={5} experienceString="(10+ years)" />
-                <Rating title="Ubuntu & Arch Linux Desktop" star={5} startYear={2018} />
-                <Rating title="Microsoft Office" star={5} startYear={2016} />
-                <Rating title="Ubuntu & Debian Servers" star={5} experienceString="(5 years)" />
-                <Rating title="Visual Studio Code" star={5} startYear={2017} />
-                <Rating title="Windows" star={5} experienceString="(10+ years)" />
-                <Rating title="Git" star={4} startYear={2018} />
-              </div>
-              <div className="col-md-6">
-                <Rating title="MacOS" star={4} startYear={2019} />
-                <Rating title="Sublime Text" star={4} startYear={2016} />
-                <Rating title="Visual Studio" star={4} experienceString="(3 years)" />
-                <Rating title="Amazon Web Services" star={3} experienceString="(1 year)" />
-                <Rating title="Eclipse" star={3} experienceString="(1 year)" />
-                <Rating title="Photoshop" star={3} startYear={2013} />
-                <Rating title="Wireshark" star={3} startYear={2021} />
               </div>
             </div>
           </Fade>
@@ -262,8 +258,8 @@ function App() {
 
           <button
             onClick={(event) =>
-              (window.location.href =
-                "https://github.com/ryanb1214/ryanb1214.github.io")
+            (window.location.href =
+              "https://github.com/ryanb1214/ryanb1214.github.io")
             }
             className="btn btn-secondary btn-source"
           >
