@@ -206,12 +206,12 @@ function App() {
                 <Rating title="Git" star={4} experienceString="(3 years)" />
                 <Rating title="Linux Desktops & Servers" star={4} startYear={2018} />
                 <Rating title="Windows Desktop & Active Directory" star={4} startYear={2021} />
-                <Rating title="Virtualization [Docker, HyperV, VMware]" star={4} startYear={2020} />
+                <Rating title="Virtualization [Docker/HyperV/VMware]" star={4} startYear={2020} />
               </div>
               <div className="col-md-6">
-                <Rating title="Networking [Firewalls, Switches, Routers]" star={3} experienceString="(1 year)" />
                 <Rating title="MacOS" star={4} experienceString="(2 years)" />
                 <Rating title="Microsoft Office & SharePoint" star={4} startYear={2016} />
+                <Rating title="Networking [Firewall/Switch/Router]" star={3} experienceString="(1 year)" />
                 <Rating title="Amazon Web Services" star={2} experienceString="(1 year)" />
               </div>
             </div>
