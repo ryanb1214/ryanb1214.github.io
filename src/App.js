@@ -47,7 +47,7 @@ function App() {
             <div className="row">
               <div className="col-md-4 bio">
                 Dedicated and energetic Technology Specialist offering verifiable experience spanning IT Support, cybersecurity, networking, customer service, project management and software development.
-                <br /> <br /> 
+                <br /> <br />
                 Proven ability in supporting corporate ITSM initiatives, mitigating cybersecurity threats and elevating end-user satisfaction — contributing to system configuration and troubleshooting, penetration testing and service delivery excellence.
               </div>
               <div className="col-md-4">
@@ -75,28 +75,30 @@ function App() {
         <section id="experience">
           <Fade triggerOnce="true">
             <h2>Experiences</h2>
-            <p className="quote">
-              “The only source of knowledge is experience.”
-              <br />
-              <span className="speaker">-- Albert Einstein</span>
-            </p>
-          <h3>Certifications</h3>
-          <div>
-            <div class="experience">
-              <div class="certification experiences row">
-                <div class="col-md-4">
-                  <div class="experience-heading">
-                    CompTIA Network+
+          </Fade>
+          <p className="quote">
+            “The only source of knowledge is experience.”
+            <br />
+            <span className="speaker">-- Albert Einstein</span>
+          </p>
+          <Fade triggerOnce="true">
+            <h3>Certifications</h3>
+            <div>
+              <div class="experience">
+                <div class="certification experiences row">
+                  <div class="col-md-4">
+                    <div class="experience-heading">
+                      CompTIA Network+
+                    </div>
+                    <div class="experience-period">May 2023 - May 2026</div>
                   </div>
-                  <div class="experience-period">May 2023 - May 2026</div>
-                </div>
-                <div class="col-md-8">
-                  CompTIA Network+ validates the technical skills needed to securely establish, maintain and troubleshoot the essential networks that businesses rely on.
+                  <div class="col-md-8">
+                    CompTIA Network+ validates the technical skills needed to securely establish, maintain and troubleshoot the essential networks that businesses rely on.
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <h3>Education</h3>
+            <h3>Education</h3>
           </Fade>
           <Fade triggerOnce="true" childClassName="text-align-left">
             <div class="experiences">
@@ -113,9 +115,9 @@ function App() {
                     Certificate
                   </strong>
                   <br />
-                  Areas of studies covered in this program included standards and regulations (ISO, NIST & PIPA, PIPEDA, GDPR), 
-                  frameworks (COBIT & ITIL), network protocols and traffic analysis, vulnerabilty assessments, 
-                  penetration testing, digital forensics, identity management, identifying social engineering attacks, 
+                  Areas of studies covered in this program included standards and regulations (ISO, NIST & PIPA, PIPEDA, GDPR),
+                  frameworks (COBIT & ITIL), network protocols and traffic analysis, vulnerabilty assessments,
+                  penetration testing, digital forensics, identity management, identifying social engineering attacks,
                   implementing cyber awareness training, developing policies/procedures/playbooks, risk management and risk assessments, firewalls, and threat hunting.
                 </div>
               </div>
@@ -170,17 +172,18 @@ function App() {
         <section id="abilities">
           <Fade triggerOnce="true">
             <h2>Abilities</h2>
-            <p className="quote">
-              "Competence goes beyond words. It's the leader's ability to say it, 
-              <br />
-              plan it, and do it in such a way that others know that you
-              <br />
-              know how - and know that they want to follow you."
-              <br />
-              <span className="speaker">-- John Maxwell</span>
-            </p>
-            <hr />
-
+          </Fade>
+          <p className="quote">
+            "Competence goes beyond words. It's the leader's ability to say it,
+            <br />
+            plan it, and do it in such a way that others know that you
+            <br />
+            know how - and know that they want to follow you."
+            <br />
+            <span className="speaker">-- John Maxwell</span>
+          </p>
+          <hr />
+          <Fade triggerOnce="true">
             <h3>Cybersecurity Tools</h3>
             <div className="row">
               <div className="col-md-6">
