@@ -9,7 +9,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div class="App">
-      {/* <Navbar /> */}
       <ScrollTopArrow />
       <header class="App-header">
         <div class="video-container">
@@ -26,7 +25,7 @@ function App() {
           <Slide triggerOnce="true">
             <h1>Ryan Ball</h1>
             <p class="motto">
-              Aspiring Cybersecurity Professional
+              IT Specialist
             </p>
           </Slide>
           <Link
@@ -47,11 +46,9 @@ function App() {
             <h2>About Me</h2>
             <div className="row">
               <div className="col-md-4 bio">
-                Organized and eager-to-learn aspiring Cybersecurity Professional, with a history of software development, looking to start a career in the industry.
+                Dedicated and energetic Technology Specialist offering verifiable experience spanning IT Support, cybersecurity, networking, customer service, project management and software development.
                 <br /> <br /> 
-                I am experienced in cybersecurity documentation development, 
-                risk identification, vulnerability assessments, web and database development, diagnosing software and hardware issues, customer service, video production 
-                with working knowledge in networking and Windows/Linux Servers. I am currently working towards acquiring a CompTIA Security+ certification and improving my Python knowledge.
+                Proven ability in supporting corporate ITSM initiatives, mitigating cybersecurity threats and elevating end-user satisfaction — contributing to system configuration and troubleshooting, penetration testing and service delivery excellence.
               </div>
               <div className="col-md-4">
                 <Zoom triggerOnce="true">
@@ -83,7 +80,23 @@ function App() {
               <br />
               <span className="speaker">-- Albert Einstein</span>
             </p>
-            <h3>Education</h3>
+          <h3>Certifications</h3>
+          <div>
+            <div class="experience">
+              <div class="certification experiences row">
+                <div class="col-md-4">
+                  <div class="experience-heading">
+                    CompTIA Network+
+                  </div>
+                  <div class="experience-period">May 2023 - May 2026</div>
+                </div>
+                <div class="col-md-8">
+                  CompTIA Network+ validates the technical skills needed to securely establish, maintain and troubleshoot the essential networks that businesses rely on.
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3>Education</h3>
           </Fade>
           <Fade triggerOnce="true" childClassName="text-align-left">
             <div class="experiences">
@@ -158,8 +171,10 @@ function App() {
           <Fade triggerOnce="true">
             <h2>Abilities</h2>
             <p className="quote">
-              "Competence goes beyond words. It's the leader's ability to say
-              it, plan it, and do it in such a way that others know that you
+              "Competence goes beyond words. It's the leader's ability to say it, 
+              <br />
+              plan it, and do it in such a way that others know that you
+              <br />
               know how - and know that they want to follow you."
               <br />
               <span className="speaker">-- John Maxwell</span>
@@ -169,30 +184,31 @@ function App() {
             <h3>Cybersecurity Tools</h3>
             <div className="row">
               <div className="col-md-6">
-                <Rating title="Metasploit" star={4} startYear={2020} />
-                <Rating title="Nessus" star={3} startYear={2020} />
-                <Rating title="Nmap" star={3} startYear={2020} />
-                <Rating title="Wireshark" star={3} startYear={2020} />
+                <Rating title="Metasploit" star={4} />
+                <Rating title="Nessus" star={3} />
+                <Rating title="Nmap" star={3} />
+                <Rating title="Wireshark" star={3} />
               </div>
               <div className="col-md-6">
-                <Rating title="Autopsy" star={2} experienceString="(1 year)" />
-                <Rating title="Burpsuite" star={2} startYear={2021} />
-                <Rating title="IDA Debugger" star={2} experienceString="(1 year)" />
+                <Rating title="Autopsy" star={2} />
+                <Rating title="Burpsuite" star={2} />
+                <Rating title="IDA Debugger" star={2} />
               </div>
             </div>
 
-            <h3>Technologies</h3>
+            <h3>Technologies & Tools</h3>
             <div className="row">
               <div className="col-md-6">
-                <Rating title="Windows Desktops & Servers" star={5} experienceString="(10+ years)" />
-                <Rating title="Visual Studio Code" star={5} startYear={2017} />
+                <Rating title="Windows Desktop" star={5} experienceString="(10+ years)" />
                 <Rating title="Git" star={4} experienceString="(3 years)" />
                 <Rating title="Linux Desktops & Servers" star={4} startYear={2018} />
+                <Rating title="Windows Desktop & Active Directory" star={4} startYear={2021} />
+                <Rating title="Virtualization [Docker, HyperV, VMware]" star={4} startYear={2020} />
               </div>
               <div className="col-md-6">
+                <Rating title="Networking [Firewalls, Switches, Routers]" star={3} experienceString="(1 year)" />
                 <Rating title="MacOS" star={4} experienceString="(2 years)" />
-                <Rating title="Microsoft Office" star={4} startYear={2016} />
-                <Rating title="Visual Studio" star={4} experienceString="(3 years)" />
+                <Rating title="Microsoft Office & SharePoint" star={4} startYear={2016} />
                 <Rating title="Amazon Web Services" star={2} experienceString="(1 year)" />
               </div>
             </div>

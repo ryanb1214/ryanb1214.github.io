@@ -1,3 +1,5 @@
+/* App Defaults and Fonts */
+
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -39,7 +41,7 @@
   }
 }
 
-.avatar{
+.avatar {
   display: block;
   border-radius: 50%;
   margin: 2vh auto;
@@ -51,6 +53,8 @@ h1 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+h3 { font-size: 150%; }
 
 hr {
   width:7vh;
@@ -64,13 +68,16 @@ header {
   background-color:black;
 }
 
-.about { background-color: #CEEBF5; }
-.experiences-bg { background-color: #3FA5D6; }
-.abilities { 
-  background-color: #3D72A3; 
-}
+ul { text-align:left;}
+.italic{ font-style: italic;}
+.no-bullets { list-style-type: none; }
+.float-right { float:right;}
+.text-align-left { text-align:left; }
 
-
+/* Header
+    Video Styling
+    Scrolldown Button Animation 
+*/
 
 .showcase {
   position: relative;
@@ -81,6 +88,7 @@ header {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  text-shadow: black 5px 0 10px;
 }
 
 .video-container { 
@@ -102,7 +110,7 @@ header {
 .scroll-down {
   height: 50px;
   width: 30px;
-  border: 2px solid white;
+  border: 2px solid #3D72A3;
   position: absolute;
   bottom: 20px;
   border-radius: 50px;
@@ -115,7 +123,7 @@ header {
   position: absolute;
   top: 20%;
   left: 50%;
-  border: 2px solid white;
+  border: 2px solid #3D72A3;
   height: 10px;
   width: 10px;
   transform: translate(-50%, -100%) rotate(45deg);
@@ -145,24 +153,13 @@ header {
   }
 }
 
-ul { text-align:left;}
-
-.italic{ font-style: italic;}
-
-.no-bullets {
-  list-style-type: none;
-}
-
-.float-right { float:right;}
-.text-align-left { text-align:left; }
+/* Body Styling */
 
 section, footer{ 
   padding-top: 5rem;
 }
 
 section:last-child { padding-bottom: 5rem;}
-
-h3{ font-size: 150%; }
 
 .quote {
   padding: 0.8rem 0;
@@ -176,6 +173,22 @@ h3{ font-size: 150%; }
   font-size:90%;
 }
 
+.quote, .speaker {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
 .details, .bio {
   margin-top: auto;
   margin-bottom: auto;
@@ -184,12 +197,15 @@ h3{ font-size: 150%; }
 
 .details li { margin-bottom: 1.5rem; }
 
+.certification { padding-bottom:1.5rem}
+
 .experiences { text-align:left; }
 .experience { padding-top:1rem; }
 
 .experience-heading {
   font-weight:bold;
   font-size:125%;
+  text-align:left;
 }
 
 .experience-period { 
@@ -206,6 +222,29 @@ section#abilities h3 {
 .ability-rating {
   float:right;
 }
+
+.btn-source:hover {
+  -webkit-transform: scale(1.01);
+}
+
+.rating:hover, .media:hover {
+  color: gray;
+  text-shadow:rgba(0,0,0,0.8);
+  -webkit-transform: scale(1.02);
+  -moz-transition:color .3s ease-in;
+  -o-transition:color .3s ease-in;
+  -webkit-transition:color .3s ease-in;
+}
+
+.rating:hover > .ability-rating { 
+  color: #FFDF00; 
+  transition-duration: 0.5s;
+}
+
+/* Footer
+    Social Media Links
+    GitHub Source Button 
+*/
 
 footer {
   background-color:#061529;
@@ -250,22 +289,4 @@ footer .btn {
 
 .media-text:hover { 
   color:inherit;
-}
-
-.btn-source:hover {
-  -webkit-transform: scale(1.01);
-}
-
-.rating:hover, .media:hover {
-  color: gray;
-  text-shadow:rgba(0,0,0,0.8);
-  -webkit-transform: scale(1.02);
-  -moz-transition:color .3s ease-in;
-  -o-transition:color .3s ease-in;
-  -webkit-transition:color .3s ease-in;
-}
-
-.rating:hover > .ability-rating { 
-  color: #FFDF00; 
-  transition-duration: 0.5s;
 }

@@ -15,7 +15,7 @@ function Rating(props) {
     if (props.startYear) {
         experience = new Date().getFullYear() - props.startYear
         if (experience <= 1 ) {
-            //In case years of experience was calculated as 0 -- set to 1 for simplicity. Cannot remember specific months I started learning
+            //In case years of experience was calculated as 0 -- set to 1 year of experience for simplicity, to avoid calculating months
             experience = 1
             //Format for later use as a string
             experience = "(" + experience + " year)"
@@ -31,7 +31,7 @@ function Rating(props) {
             I will supply the text that is displayed inside of the prop "experienceString" instead of "startYear". 
             This will require no string manipulation, so I will just set it as the variable "experience". 
 
-        startYear and experienceString are used interchangeably depending on need
+        startYear and experienceString are used interchangeably depending on need, whether it is a years of experience being calculated or a simple string input of how many years learned without calculations.
     */
    if (props.experienceString) { 
        experience = props.experienceString 
