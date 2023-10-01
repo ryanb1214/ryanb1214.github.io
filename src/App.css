@@ -197,10 +197,8 @@ section:last-child { padding-bottom: 5rem;}
 
 .details li { margin-bottom: 1.5rem; }
 
-.certification { padding-bottom:1.5rem}
-
 .experiences { text-align:left; }
-.experience { padding-top:1rem; }
+.experience { padding-top:1rem; padding-bottom:1rem; }
 
 .experience-heading {
   font-weight:bold;
@@ -212,6 +210,10 @@ section:last-child { padding-bottom: 5rem;}
   font-style:italic; 
   padding-top: 0.5rem;
 }
+
+.employment {margin:1rem 0 2rem 0}
+
+.certifications {padding-bottom:2rem;}
 
 section#abilities h3 {
   padding-top: 1rem;

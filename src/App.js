@@ -82,18 +82,92 @@ function App() {
             <span className="speaker">-- Albert Einstein</span>
           </p>
           <Fade triggerOnce="true">
-            <h3>Certifications</h3>
+            <h3>Employment</h3>
             <div>
+              <div class="employment experiences row">
+                <div class="col-md-4">
+                  <div class="experience-heading">
+                    Cadence Solutions
+                  </div>
+                  <div class="experience-period">July 2023 - Present</div>
+                </div>
+                <div class="col-md-8">
+                  <strong>
+                    Technical Analyst I
+                  </strong>
+                  <br />
+                  As a Tier I Technical Analyst, I support the existing Managed Services clients with their Enterprise Content Management (OpenText) system through first line of communications in the ticketing system. I am also responsible for technical tasks including; ECM system installation and upgrades, configuration, and customization to suit customer needs.
+                </div>
+              </div>
+            </div>
+            <h3>Certifications</h3>
+            <div class="certifications">
               <div class="experience">
+              <div class="certification experiences row">
+                  <div class="col-md-4">
+                    <div class="experience-heading">
+                      Microsoft 365 Fundamentals (MS-900)
+                    </div>
+                    <div class="experience-period">September 2023</div>
+                  </div>
+                  <div class="col-md-8">
+                    Microsoft 365 Fundamentals proves knowledge of cloud services, licensing, deployment, migration assistance, and support options for organizations looking to maximize their investment in the cloud.
+                    <br />
+                    <button
+                      onClick={(event) =>
+                      (window.location.href =
+                        "https://learn.microsoft.com/en-ca/users/ryanb1214/credentials/62492d9ffbe645fa")
+                      }
+                      className="btn btn-outline-secondary"
+                    >
+                      View Certification <i class="bi bi-patch-check"></i>
+                    </button>
+                  </div>
+                </div>
+                &nbsp;
+                <div class="certification experiences row">
+                  <div class="col-md-4">
+                    <div class="experience-heading">
+                      Microsoft Azure Fundamentals (AZ-900)
+                    </div>
+                    <div class="experience-period">July 2023</div>
+                  </div>
+                  <div class="col-md-8">
+                    Microsoft Azure Fundamentals proves knowledge of cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support.
+                    <br />
+                    <button
+                      onClick={(event) =>
+                      (window.location.href =
+                        "https://learn.microsoft.com/api/credentials/share/en-ca/Ryanb1214/5C2CBE4A111094?sharingId=2FA5DC4E35ED28E7")
+                      }
+                      className="btn btn-outline-secondary"
+                    >
+                      View Certification <i class="bi bi-patch-check"></i>
+                    </button>
+                  </div>
+                </div>
+                &nbsp;
                 <div class="certification experiences row">
                   <div class="col-md-4">
                     <div class="experience-heading">
                       CompTIA Network+
+                      <br />
+                      (N10-008)
                     </div>
                     <div class="experience-period">May 2023 - May 2026</div>
                   </div>
                   <div class="col-md-8">
                     CompTIA Network+ validates the technical skills needed to securely establish, maintain and troubleshoot the essential networks that businesses rely on.
+                    <br />
+                    <button
+                      onClick={(event) =>
+                      (window.open =
+                        "https://www.credly.com/users/ryan-ball.2d2ace00", '_blank')
+                      }
+                      className="btn btn-outline-secondary"
+                    >
+                      View Certification <i class="bi bi-patch-check"></i>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -144,7 +218,7 @@ function App() {
                   utilized SCRUM to create a WordPress site, database & admin
                   dashboard for an external client, which was the project chosen
                   to be used over other teams' final projects. During my tenure in the program, I
-                  was placed on the Dean's Honour Roll for 2/4 terms.
+                  was placed on the Dean's Honour Roll for 2/4 terms and was a recepient of the Jason Lang Scholarship.
                 </div>
               </div>
             </div>
@@ -205,14 +279,15 @@ function App() {
                 <Rating title="Windows Desktop" star={5} experienceString="(10+ years)" />
                 <Rating title="Git" star={4} experienceString="(3 years)" />
                 <Rating title="Linux Desktops & Servers" star={4} startYear={2018} />
-                <Rating title="Windows Desktop & Active Directory" star={4} startYear={2021} />
+                <Rating title="Windows Server & Active Directory" star={4} startYear={2021} />
                 <Rating title="Virtualization [Docker/HyperV/VMware]" star={4} startYear={2020} />
               </div>
               <div className="col-md-6">
                 <Rating title="MacOS" star={4} experienceString="(2 years)" />
-                <Rating title="Microsoft Office & SharePoint" star={4} startYear={2016} />
+                <Rating title="Microsoft 365 & Office" star={4} startYear={2016} />
+                <Rating title="Microsoft Azure" star={3} startYear={2023} />
                 <Rating title="Networking [Firewall/Switch/Router]" star={3} experienceString="(1 year)" />
-                <Rating title="Amazon Web Services" star={2} experienceString="(1 year)" />
+                <Rating title="Enterprise Content Management" star={3} experienceString="(1 year)" />
               </div>
             </div>
 
