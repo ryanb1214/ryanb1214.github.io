@@ -46,7 +46,7 @@ function App() {
             <h2>About Me</h2>
             <div className="row">
               <div className="col-md-4 bio">
-                Dedicated and energetic Technology Specialist offering verifiable experience spanning IT Support, cybersecurity, networking, customer service, project management and software development.
+                Dedicated and energetic Technology Specialist offering verifiable experience spanning IT Support, cybersecurity, networking, customer service, project management, enterprise content management, and software development.
                 <br /> <br />
                 Proven ability in supporting corporate ITSM initiatives, mitigating cybersecurity threats and elevating end-user satisfaction — contributing to system configuration and troubleshooting, penetration testing and service delivery excellence.
               </div>
@@ -103,6 +103,28 @@ function App() {
             <h3>Certifications</h3>
             <div class="certifications">
               <div class="experience">
+                <div class="certification experiences row">
+                  <div class="col-md-4">
+                    <div class="experience-heading">
+                      Microsoft Identity and Access Administrator (SC-300)
+                    </div>
+                    <div class="experience-period">November 2023 - November 2024</div>
+                  </div>
+                  <div class="col-md-8">
+                    Microsoft Certified: Identity and Access Administrator Associate proves knowledge of designing, implementing, and operating an organization's identity and access management systems using Entra ID.
+                    <br />
+                    <button
+                      onClick={(event) =>
+                      (window.location.href =
+                        "https://learn.microsoft.com/api/credentials/share/en-us/Ryanb1214/E50B237070C791F0?sharingId=2FA5DC4E35ED28E7")
+                      }
+                      className="btn btn-outline-secondary"
+                    >
+                      View Certification <i class="bi bi-patch-check"></i>
+                    </button>
+                  </div>
+                </div>
+                &nbsp;
               <div class="certification experiences row">
                   <div class="col-md-4">
                     <div class="experience-heading">
